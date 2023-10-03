@@ -1,22 +1,19 @@
-html{
+html {
     height: 100%;
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
-::before,
-::after{
-    box-sizing: inherit;
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 }
-body{
-display: flex;
-flex-direction: column;
-height: 100%;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-}
-.container{
+
+.container {
     width: 100%;
     max-width: 1180px;
     padding-left: 20px;
@@ -24,6 +21,108 @@ font-weight: 400;
     margin-right: auto;
     margin-left: auto;
 }
-main{
+
+main {
+    padding-top: 80px;
+    background-color: lightblue;
     flex-grow: 1;
 }
+
+.main-left-div {
+    width: 100%;
+    max-width: 570px;
+    background-image: url(../img/main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.span-div {
+    padding-top: 55px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.span-text {
+    padding-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 41px;
+    border: 1px solid #FFF;
+    display: inline-flex;
+    padding: 5px 15px;
+    align-items: flex-start;
+}
+
+.text-advertising {
+    padding-bottom: 203px;
+    padding-left: 60px;
+    padding-right: 121px;
+}
+
+.main-wrap-text {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.main-child-text {
+    margin: 0px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.button {
+    display: block;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #4DC490;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.span {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+}
+.main-left-div{
+    background-image:url(../img/main-img.png)2x;
+} */
