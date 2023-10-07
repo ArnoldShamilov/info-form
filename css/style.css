@@ -49,6 +49,11 @@ main {
     padding-bottom: 60px;
     cursor: pointer;
 }
+.main-section-div{
+    width: 100%;
+    max-width: 570px;
+    padding-right: 12px;
+}
 
 .span-text {
     padding-top: 60px;
