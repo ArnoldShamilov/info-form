@@ -30,7 +30,6 @@ main {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: lightblue;
-    flex-grow: 1;
 }
 
 .main-left-div {
@@ -206,6 +205,8 @@ line-height: 42px;
     line-height: 15px;
     text-decoration-line: underline
 }
+/* MAIN RIGHT */
+
 
 /* @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
